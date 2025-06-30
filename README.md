@@ -23,3 +23,9 @@ Overall, the course will provide the students with a comprehensive understanding
 ### Further Material
 
  * [Scott's Agile Hardware Design Course](https://classes.soe.ucsc.edu/cse228a/Winter24/)
+ * [Agile SW on Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
+
+ #### Papers
+
+ * TODO: our DSD paper and journal article
+ * [Creating an Agile Hardware Design Flow](https://cs.stanford.edu/~niemetz/publications/2020/DAC2020.pdf)
