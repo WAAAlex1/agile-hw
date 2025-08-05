@@ -27,5 +27,5 @@ Overall, the course will provide the students with a comprehensive understanding
 
  #### Papers
 
- * TODO: our DSD paper and journal article
+ * [Scala defined hardware generators for Chisel](https://www.sciencedirect.com/science/article/pii/S014193312500050X)
  * [Creating an Agile Hardware Design Flow](https://cs.stanford.edu/~niemetz/publications/2020/DAC2020.pdf)
