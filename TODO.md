@@ -9,7 +9,7 @@
  * [x] update setup instructions
    - [x] also words on SDK Man
  * [ ] preparation slides
- * [ ] Finish lab0, including test code
+ * [x] Finish lab0, including test code
      - Accumulator with configurable width
 
 ### Summer School

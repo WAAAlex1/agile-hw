@@ -8,10 +8,10 @@
 
 import chisel3._
 
-class Hello(n: Integer = 8, m: Integer = 16) extends Module {
+class Hello(n: Int = 8, m: Int = 16) extends Module {
   val io = IO(new Bundle {
-    val din = Input(UInt(8.W))
-    val dout = Output(UInt(16.W))
+    val din = Input(UInt(n.W))
+    val dout = Output(UInt(m.W))
     val clear = Input(Bool())
     val enable = Input(Bool())
   })
