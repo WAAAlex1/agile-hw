@@ -95,7 +95,8 @@ If you want to use the latest Java version and related tool, you can use [SDKMAN
 
 ## Installation Check
 
-The installation shall be checked with the first exercise in lab0.
+The installation shall be checked with the first exercise in [lab0](lab0).
+
 Or a quick, partial check with following commands in a terminal/shell
 
 ```

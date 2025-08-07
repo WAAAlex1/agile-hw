@@ -20,12 +20,18 @@ The course covers the following topics:
 
 Overall, the course will provide the students with a comprehensive understanding of agile hardware design with Chisel, enabling them to design and implement complex digital circuits via generators.
 
-### Further Material
+## Getting Started
+
+ * Install the tools as described in [Setup.md](Setup.md).
+ * Test the installation with the [lab0](lab0) example design and test.
+
+## Further Material
 
  * [Scott's Agile Hardware Design Course](https://classes.soe.ucsc.edu/cse228a/Winter24/)
  * [Agile SW on Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
+ * [The Chisel book](https://www.imm.dtu.dk/~masca/chisel-book.html)
 
- #### Papers
+ ### Papers
 
  * [Scala defined hardware generators for Chisel](https://www.sciencedirect.com/science/article/pii/S014193312500050X)
  * [Creating an Agile Hardware Design Flow](https://cs.stanford.edu/~niemetz/publications/2020/DAC2020.pdf)
