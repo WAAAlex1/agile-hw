@@ -28,6 +28,17 @@ A nice editor for Chisel/Scala is
 [IntelliJ](https://www.jetbrains.com/idea/download/). At the first start
 of IntelliJ download the Scala plugin (at Download featured plugins).
 
+[Visual Studio Code](https://code.visualstudio.com/) is also a good alternative, but you need to install the
+[Scala Metals](https://scalameta.org/metals/docs/editors/vscode.html)
+extension to get syntax highlighting and code completion.
+
+### Scala-cli
+
+Another optional tool is [Scala-cli](https://scala-cli.virtuslab.org/).
+It is a command line tool to run Scala code and scripts.
+Furthermore, you can use it for interactive Scala sessions (REPL).
+REPL stands for Read-Eval-Print Loop, a simple interactive programming environment.
+
 ## Ubuntu/Linux
 
  * Install Java JDK and other tools with:
