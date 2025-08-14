@@ -1,8 +1,7 @@
 
 import chisel3._
 import chisel3.util._
-
-import org.scalatest.funsuite.AnyFunSuite   
+ 
 
 /**
   * n-way combinational priority arbiter
