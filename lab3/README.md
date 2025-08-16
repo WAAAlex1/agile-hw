@@ -22,3 +22,8 @@ In this example, `GenericComponent` can be instantiated with any data type that 
 ## Exercise
 
 Implement a generic component that performs a simple operation. Add tests to verify its functionality with different data types.
+
+Feel free to decide on your own component. However, if you need some ideas:
+- A generic 4:1 multiplexer
+- A generic buffer with read/write signals and indication of empty/full
+- A generic FIFO queue with configurable depth (a bit advanced, could use the buffer from above)
