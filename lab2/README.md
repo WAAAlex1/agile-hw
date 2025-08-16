@@ -1,12 +1,14 @@
-# Arbitration Generator
+# MaxFinder Exercise
 
-Write a generator for arbitration between n masters. In a agile setting you can also start to write the tests first.
+In this exercise, you will implement a Chisel module that finds the maximum value in a vector of unsigned integers using a tree-based reduction (`reduceTree`).
 
-1. Start with a combinational 2:1 arbiter and then use `treeReduce` to build an arbitration tree.
+## Steps
 
-2. Write a `ChiselTest` for your arbiter to verify its functionality:
- - Create a test that checks the arbitration logic for different input scenarios.
- - Test that each request will succeed eventually.
- - Test if no two requests are granted simultaneously.
+1. Implement a `MaxFinder` module that takes a `Vec` of `UInt` values as input and outputs the maximum value.
+	- Use Chisel's `reduceTree` or a similar tree-based approach for efficiency.
 
-3. A combinational arbiter is unfair as there is a fixed priority assigned to each request. Consider a register toggling mechanism to allow for fairer arbitration. But toggle only when there is no request being served (in the 2:1 arbiter).
+2. Write a `ChiselTest` for your `MaxFinder` to verify its functionality:
+	- Test with different input vectors to ensure the correct maximum is found.
+	- Include edge cases, such as all zeros or all equal values.
+
+3. (Optional) Extend the circuit to also return the index of the maximum value. Hint: lookup `zipWithIndex` and use tuples. Use `reduce` to find both the maximum value and its index.
