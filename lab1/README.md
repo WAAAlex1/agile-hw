@@ -11,3 +11,8 @@
 3. **Higher-Order Function**
 	- Implement a higher-order function that takes a function and a list, and applies the function to each element of the list.
   Hint: Use the `map` function.
+
+Run the examples with the provided test suite, with the following command:
+```bash
+sbt test 
+```
