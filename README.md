@@ -34,9 +34,9 @@ Overall, the course will provide the students with a comprehensive understanding
 
 ## Further Material
 
+ * [The Chisel book](https://www.imm.dtu.dk/~masca/chisel-book.html)
  * [Scott's Agile Hardware Design Course](https://classes.soe.ucsc.edu/cse228a/Winter24/)
  * [Agile SW on Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
- * [The Chisel book](https://www.imm.dtu.dk/~masca/chisel-book.html)
 
  ### Papers
 
