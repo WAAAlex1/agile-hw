@@ -25,6 +25,13 @@ Overall, the course will provide the students with a comprehensive understanding
  * Install the tools as described in [Setup.md](Setup.md).
  * Test the installation with the [lab0](lab0) example design and test.
 
+## Course Info
+
+ * Instructor: Martin Schoeberl
+ * Email: masca@dtu.dk
+ * When: Tuesdays 13:00-17:00
+ * Place: 324.020
+
 ## Further Material
 
  * [Scott's Agile Hardware Design Course](https://classes.soe.ucsc.edu/cse228a/Winter24/)
