@@ -12,3 +12,5 @@ In this exercise, you will implement a Chisel module that finds the maximum valu
 	- Include edge cases, such as all zeros or all equal values.
 
 3. (Optional) Extend the circuit to also return the index of the maximum value. Hint: lookup `zipWithIndex` and use tuples. Use `reduce` to find both the maximum value and its index.
+
+4. Emit Verilog for your `MaxFinder` module to synthesize it to an ASIC on Thursday.

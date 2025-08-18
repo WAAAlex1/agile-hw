@@ -27,3 +27,5 @@ Feel free to decide on your own component. However, if you need some ideas:
 - A generic 4:1 multiplexer
 - A generic buffer with read/write signals and indication of empty/full
 - A generic FIFO queue with configurable depth (a bit advanced, could use the buffer from above)
+
+* Emit Verilog for your design to synthesize it to an ASIC on Thursday.
