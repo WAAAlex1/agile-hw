@@ -4,7 +4,7 @@ This exercise is to check yourself where you stand in digital design.
 Submit the solution and I will give you feedback. This exercise will not be graded.
 
 Implement it in any HDL you know (e.g., Chisel, VHDL, or Verilog).
-Also implement some testing (test benach).
+Also implement some testing (test bench).
 
 Binary-Coded Decimal (BCD) is a way of explicitly representing decimal numbers in computer 
 systems. Each digit of a decimal number is represented by its own 4-bit binary equivalent. 
