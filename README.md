@@ -32,6 +32,13 @@ Overall, the course will provide the students with a comprehensive understanding
  * When: Tuesdays 13:00-17:00
  * Place: 324.020
 
+ ## Lecture Plan
+
+ ### Week 1: Agile and Scala
+
+  * [Slides](01_scala.pdf)
+  * Lab: 0 and 1
+
 ## Further Material
 
  * [The Chisel book](https://www.imm.dtu.dk/~masca/chisel-book.html)
