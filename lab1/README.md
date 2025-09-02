@@ -7,14 +7,14 @@ REPL is available as `scala`, `scala-cli`, `sbt console`, or online in [scastie]
 
 ### Values and Variables
 
-* Create an immutable value pi with value 3.14159.
-* Create a mutable variable counter initialized to 0. Increment it by 1.
-* Try reassigning pi — what happens? Why?
+* Create an immutable value `pi` with value 3.14159.
+* Create a mutable variable `counter` initialized to 0. Increment it by 1.
+* Try reassigning `pi` — what happens? Why?
 
 ### Functions and Conditionals
 
-* Write a function max(a: Int, b: Int): Int that returns the larger of two integers using an if expression.
-* Write a recursive function fib(n: Int): Int that computes the n-th Fibonacci number. Test it with fib(5) (should be 5).
+* Write a function `max(a: Int, b: Int): Int` that returns the larger of two integers using an if expression.
+* Write a recursive function `fib(n: Int): Int` that computes the n-th Fibonacci number. Test it with `fib(5)` (should be 5).
 
 ### Collections
 
