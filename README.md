@@ -37,7 +37,7 @@ Overall, the course will provide the students with a comprehensive understanding
  ### Week 1: Agile and Scala
 
   * [Slides](01_scala.pdf)
-  * Lab: 0 and 1
+  * Lab: [lab0](lab0) and [lab1](lab1)
 
 ## Further Material
 
