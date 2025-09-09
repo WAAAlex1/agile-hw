@@ -39,6 +39,11 @@ Overall, the course will provide the students with a comprehensive understanding
   * [Slides](01_scala.pdf)
   * Lab: [lab0](lab0) and [lab1](lab1)
 
+### Week 2: Introduction to Chisel
+
+  * [Slides](02_chisel.pdf)
+  * Labs from the Digital Electroncs 2 course: [Chisel Lab 2](https://github.com/schoeberl/chisel-lab/tree/master/lab2) and [Chisel Lab 3](https://github.com/schoeberl/chisel-lab/tree/master/lab3)
+
 ## Further Material
 
  * [The Chisel book](https://www.imm.dtu.dk/~masca/chisel-book.html)
