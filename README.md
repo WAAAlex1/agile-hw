@@ -44,6 +44,10 @@ Overall, the course will provide the students with a comprehensive understanding
   * [Slides](02_chisel.pdf)
   * Labs from the Digital Electroncs 2 course: [Chisel Lab 2](https://github.com/schoeberl/chisel-lab/tree/master/lab2) and [Chisel Lab 3](https://github.com/schoeberl/chisel-lab/tree/master/lab3)
 
+## Chattutor
+
+ * We have a Chisel version of the [Chattutor](https://chattutor.dk/c/111/s/141/) project.
+
 ## Further Material
 
  * [The Chisel book](https://www.imm.dtu.dk/~masca/chisel-book.html)
