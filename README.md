@@ -46,7 +46,7 @@ Overall, the course will provide the students with a comprehensive understanding
 
 ### Week 3: Simple Generators
 
- * slides
+ * [Slides](03_simp_gen.pdf)
  * Labs: Lab: [lab4](lab4) and [lab5](lab5)
 
 ## Chattutor
