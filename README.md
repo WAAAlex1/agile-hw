@@ -49,6 +49,11 @@ Overall, the course will provide the students with a comprehensive understanding
  * [Slides](03_simp_gen.pdf)
  * Labs: Lab: [lab4](lab4) and [lab5](lab5)
 
+### Week 4: Digital Design with Clash
+
+ * [Slides](04_xxx.pdf)
+ * Labs: Lab: [Clash Lab on DTU Learn](lab6https://learn.inside.dtu.dk/d2l/le/lessons/270912/topics/1074110)
+
 ## Chattutor
 
  * We have a Chisel version of the [Chattutor](https://chattutor.dk/c/111/s/141/) project.
