@@ -52,7 +52,11 @@ Overall, the course will provide the students with a comprehensive understanding
 ### Week 4: Digital Design with Clash
 
  * Slides
- * Lab: [Clash Lab on DTU Learn](https://learn.inside.dtu.dk/d2l/le/lessons/270912/topics/1074110)
+ * Lab: [Clash Lab on DTU Learn](https://learn.inside.dtu.dk/d2l/le/lessons/270912/topics/1074403)
+
+ ### Week 5:
+
+  * Project presentations
 
 ## Chattutor
 
