@@ -54,8 +54,9 @@ Overall, the course will provide the students with a comprehensive understanding
  * Slides
  * Lab: [Clash Lab on DTU Learn](https://learn.inside.dtu.dk/d2l/le/lessons/270912/topics/1074403)
 
- ### Week 5:
+ ### Week 5: Generators
 
+ * [Slides](05_generators.pdf)
   * Project presentations
 
 ## Chattutor
