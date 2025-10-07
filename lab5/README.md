@@ -9,7 +9,7 @@ Here's an example of the syntax for a generic Chisel module:
 ```scala
 class GenericComponent[T <: Data](gen: T) extends Module {
   val io = IO(new Bundle {
-    val  = Input(gen)
+    val in = Input(gen)
     val out = Output(gen)
   })
 
