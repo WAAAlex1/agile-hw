@@ -57,7 +57,12 @@ Overall, the course will provide the students with a comprehensive understanding
  ### Week 5: Generators
 
  * [Slides](05_generators.pdf)
-  * Project presentations
+ * Project presentations
+
+ ### Week 6: Testing and CI
+
+ * [Slides](05_testing_and_ci.pdf)
+ * Lab: [lab6](lab6)
 
 ## Chattutor
 
