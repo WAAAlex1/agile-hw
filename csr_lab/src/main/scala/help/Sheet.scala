@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.Cell
 import scala.collection.mutable
 
 
-class Sheet(headerSeq: Seq[String], rows: Seq[Seq[String]]) {
+class Sheet(headerSeq: Seq[String], val rows: Seq[Seq[String]]) {
   def header: Seq[String] = headerSeq
   def column(name: String): Seq[String] = {
     val idx = header.indexOf(name)
@@ -19,6 +19,8 @@ class Sheet(headerSeq: Seq[String], rows: Seq[Seq[String]]) {
     else rows.map(_(idx))
   }
   def row(index: Int): Seq[String] = rows(index)
+  def filterRows(pred: Seq[String] => Boolean): Seq[Seq[String]] =
+    rows.filter(pred)
 
   override def toString(): String = Sheet.formatTable(header +: rows)
 }
