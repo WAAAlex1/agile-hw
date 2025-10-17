@@ -64,6 +64,17 @@ Overall, the course will provide the students with a comprehensive understanding
  * [Slides](05_testing_and_ci.pdf)
  * Lab: [lab6](lab6)
 
+## Group Projects
+
+ 1. [Computer Vision for image classification](https://github.com/WAAAlex1/Agile-hw-dev-project-ComVis)
+ 1. [Sha-256 hasher](TBD)
+ 1. [Random Number Generation](https://github.com/rifkifi/Agile-HW-Design-RNG)
+ 1. [Real-time Mandelbrot fractal visualization](https://github.com/komv123/AgileHWProject)
+ 1. [Chisel sound effects](https://github.com/oteyatosys/chisel-sound-effects)
+ 1. [Chisel checkers](https://github.com/jaller698/Chisel-checkers)
+ 1. [GPU-Like Vector Processor](TBD)
+ 1. [FFT Core](https://github.com/lasseslips/fft-core)
+
 ## Chattutor
 
  * We have a Chisel version of the [Chattutor](https://chattutor.dk/c/111/s/141/) project.
