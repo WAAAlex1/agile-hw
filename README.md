@@ -94,3 +94,9 @@ Overall, the course will provide the students with a comprehensive understanding
 
  * [Scala defined hardware generators for Chisel](https://www.sciencedirect.com/science/article/pii/S014193312500050X)
  * [Creating an Agile Hardware Design Flow](https://cs.stanford.edu/~niemetz/publications/2020/DAC2020.pdf)
+
+ ### Agile Reading
+
+  * [The New New Product Development Game](https://hbr.org/1986/01/the-new-new-product-development-game) by Hirotaka Takeuchi and Ikujiro Nonaka, Game. Harvard Business Review, Jan./Feb. 1986: 285–305.
+  * [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Half-Time/dp/038534645X) by Jeff Sutherland and J.J. Sutherland.
+  * [Agile Manifesto](https://agilemanifesto.org/)
