@@ -51,7 +51,7 @@ Overall, the course will provide the students with a comprehensive understanding
 
 ### Week 4: Digital Design with Clash
 
- * Slides
+ * Slides in DTU Learn
  * Lab: [Clash Lab on DTU Learn](https://learn.inside.dtu.dk/d2l/le/lessons/270912/topics/1074403)
 
  ### Week 5: Generators
@@ -61,9 +61,14 @@ Overall, the course will provide the students with a comprehensive understanding
 
  ### Week 6: Testing and CI
 
- * [Slides](05_testing_and_ci.pdf)
+ * [Slides](06_testing_and_ci.pdf)
  * Lab: [lab6](lab6)
 
+ ### Week 7: Co-Simulation and Scrum
+
+ * [Slides](07_co_sim.pdf)
+ * Lab: [lab7](lab7)
+ 
 ## Group Projects
 
  1. [Computer Vision for image classification](https://github.com/WAAAlex1/Agile-hw-dev-project-ComVis)
