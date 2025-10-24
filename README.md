@@ -51,7 +51,7 @@ Overall, the course will provide the students with a comprehensive understanding
 
 ### Week 4: Digital Design with Clash
 
- * Slides
+ * Slides in DTU Learn
  * Lab: [Clash Lab on DTU Learn](https://learn.inside.dtu.dk/d2l/le/lessons/270912/topics/1074403)
 
  ### Week 5: Generators
@@ -61,8 +61,24 @@ Overall, the course will provide the students with a comprehensive understanding
 
  ### Week 6: Testing and CI
 
- * [Slides](05_testing_and_ci.pdf)
+ * [Slides](06_testing_and_ci.pdf)
  * Lab: [lab6](lab6)
+
+ ### Week 7: Co-Simulation and Scrum
+
+ * [Slides](07_co_sim.pdf)
+ * Lab: [lab7](lab7)
+ 
+## Group Projects
+
+ 1. [Computer Vision for image classification](https://github.com/WAAAlex1/Agile-hw-dev-project-ComVis)
+ 1. [Sha-256 hasher](TBD)
+ 1. [Random Number Generation](https://github.com/rifkifi/Agile-HW-Design-RNG)
+ 1. [Real-time Mandelbrot fractal visualization](https://github.com/komv123/AgileHWProject)
+ 1. [Chisel sound effects](https://github.com/oteyatosys/chisel-sound-effects)
+ 1. [Chisel checkers](https://github.com/jaller698/Chisel-checkers)
+ 1. [GPU-Like Vector Processor](TBD)
+ 1. [FFT Core](https://github.com/lasseslips/fft-core)
 
 ## Chattutor
 
@@ -78,3 +94,9 @@ Overall, the course will provide the students with a comprehensive understanding
 
  * [Scala defined hardware generators for Chisel](https://www.sciencedirect.com/science/article/pii/S014193312500050X)
  * [Creating an Agile Hardware Design Flow](https://cs.stanford.edu/~niemetz/publications/2020/DAC2020.pdf)
+
+ ### Agile Reading
+
+  * [The New New Product Development Game](https://hbr.org/1986/01/the-new-new-product-development-game) by Hirotaka Takeuchi and Ikujiro Nonaka, Game. Harvard Business Review, Jan./Feb. 1986: 285–305.
+  * [Scrum: The Art of Doing Twice the Work in Half the Time](https://www.amazon.com/Scrum-Doing-Twice-Half-Time/dp/038534645X) by Jeff Sutherland and J.J. Sutherland.
+  * [Agile Manifesto](https://agilemanifesto.org/)
