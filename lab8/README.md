@@ -17,12 +17,21 @@ brew install z3
 
 We start with a minimal example in `Simple.scala`, which contains two assertions.
 One is correct the other one is incorrect. The test given in `SimpleTest` will pass, although one assertion is wrong.
+
+```
+sbt "testOnly SimpleTest"
+```
+
 However, the formal verification (`SimpleVerify`) will catch the error.
+
+```
+sbt "testOnly SimpleVerify"
+```
 
 Play with this example: run the tests and explore the VCD file.
 Does the formal verification show a counter example in the VCD file?
 
-Fis the assertion on check that the formal test passes.
+Fix the assertion on check that the formal test passes.
 
 
 ## A simple counter
