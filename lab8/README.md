@@ -1,6 +1,7 @@
 # Lab 8: Formal Verification
 
-This lab introduces formal verification techniques for hardware designs using Chisel and related tools. You will learn how to specify properties of your hardware and verify them using formal methods.
+This lab introduces formal verification techniques for hardware designs using Chisel Formal.
+You will learn how to specify properties of your hardware and verify them using formal methods.
 
 To use Chisel formal you need to install the open [Z3 theorem prover](https://github.com/Z3Prover/z3). Use your package manager to install, e.g. on Ubuntu:
 
@@ -34,7 +35,7 @@ Does the formal verification show a counter example in the VCD file?
 Fix the assertion and check that the formal test passes.
 
 
-## A simple counter
+## A Simple Counter
 
 Next we do a simple example of a 2-bit counter. Create a new Chisel module `Counter2Bit` in a file named `Counter2Bit.scala`:
 
@@ -68,3 +69,30 @@ Conditional properties can be expressed using `when`, `elsewhen`, and `otherwise
 
 How large must the bound be to verify the counter?
 Make the check fail by changing the properties and explore when the failure is not covered with a too small bound.
+
+Explore other available functions in https://www.javadoc.io/static/edu.berkeley.cs/chiseltest_2.12/0.5.5/chiseltest/formal/index.html
+
+## Test a Queue
+
+The source `MyQueue.scala` has initial steps to implement a queue, e.g.,
+the class definition and IO definition and a single buffer component.
+Use that buffer to implement a bubble queue (e.g., an element is moved forward
+when the next position is empty) of depth given as parameter.
+
+`MyQueueTest.scala` implements a simgle test for the queue.
+Use that test to get your implementation started.
+Add a test for the latency of the queue (the element needs to bubble
+from the input to the output).
+
+Then write formal verification in `MyQueueVerify.scala`.
+
+Write a test plan on what should be checked formally.
+Examples are:
+
+- An element that is enqueued will eventually be dequeued.
+- The order of elements is preserved (FIFO).
+- Full and empty conditions are correctly handled.
+
+## Use Chisel Formal on your own Design!
+
+Find at least one feature that you can formally verify on your own Chisel design.
