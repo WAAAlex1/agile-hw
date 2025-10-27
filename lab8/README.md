@@ -2,6 +2,17 @@
 
 This lab introduces formal verification techniques for hardware designs using Chisel and related tools. You will learn how to specify properties of your hardware and verify them using formal methods.
 
+To use Chisel formal you need to install the open [Z3 theorem prover](https://github.com/Z3Prover/z3). Use your package manager to install, e.g. on Ubuntu:
+
+```bash
+sudo apt install z3
+```
+On MacOS you can use Homebrew:
+
+```bash
+brew install z3
+```
+
 ## Hello World
 
 We start with a minimal example in `Simple.scala`, which contains two assertions.
