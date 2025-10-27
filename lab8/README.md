@@ -93,6 +93,10 @@ Examples are:
 - The order of elements is preserved (FIFO).
 - Full and empty conditions are correctly handled.
 
+Also check the properties that have been shown on slide 7 of
+the [testing lecture](../06_testing_and_ci.pdf). Note, that some properties need to be adapted.
+E.g., you can see that a queue is not empty by checking that the output is valid (after some cycles).
+
 ## Use Chisel Formal on your own Design!
 
 Find at least one feature that you can formally verify on your own Chisel design.
