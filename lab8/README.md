@@ -31,33 +31,19 @@ sbt "testOnly SimpleVerify"
 Play with this example: run the tests and explore the VCD file.
 Does the formal verification show a counter example in the VCD file?
 
-Fix the assertion on check that the formal test passes.
+Fix the assertion and check that the formal test passes.
 
 
 ## A simple counter
 
-We start with a simple example of a 2-bit counter. Create a new Chisel module `Counter2Bit` in a file named `Counter2Bit.scala`:
+Next we do a simple example of a 2-bit counter. Create a new Chisel module `Counter2Bit` in a file named `Counter2Bit.scala`:
 
 ```scala
 import chisel3._
 import chisel3.util._
+import chiseltest.formal._
+
 class Counter2Bit extends Module {
-  val io = IO(new Bundle {
-    val out = Output(UInt(2.W))
-  })
-  val count = RegInit(0.U(2.W))
-  count := count + 1.U
-  io.out := count
-}
-```
-Next, we will write a formal specification for this counter. Create a new file named `Counter2BitFormal.scala`:
-
-```scala
-import chisel3._
-import chisel3.util._
-import chisel3.experimental.ChiselEnum
-import chisel3.formal._
-class Counter2BitFormal extends Module {
   val io = IO(new Bundle {
     val out = Output(UInt(2.W))
   })
@@ -70,3 +56,15 @@ class Counter2BitFormal extends Module {
   cover(count === 0.U, "Counter reaches 0")
 }
 ```
+and write test verification in `Counter2BitVerify.scala`.
+
+Change the properties and see how the formal verification reacts.
+What else can you verify?
+
+Can you check that the counter increases by one each cycle?
+
+`past(x)` provides the value of `x` in the previous cycle.
+Conditional properties can be expressed using `when`, `elsewhen`, and `otherwise`.
+
+How large must the bound be to verify the counter?
+Make the check fail by changing the properties and explore when the failure is not covered with a too small bound.
