@@ -79,7 +79,7 @@ the class definition and IO definition and a single buffer component.
 Use that buffer to implement a bubble queue (e.g., an element is moved forward
 when the next position is empty) of depth given as parameter.
 
-`MyQueueTest.scala` implements a simgle test for the queue.
+`MyQueueTest.scala` implements a simple test for the queue.
 Use that test to get your implementation started.
 Add a test for the latency of the queue (the element needs to bubble
 from the input to the output).
