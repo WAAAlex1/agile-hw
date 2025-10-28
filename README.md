@@ -71,7 +71,7 @@ Overall, the course will provide the students with a comprehensive understanding
 
  ### Week 8: Formal Verification
 
-  * [Slides](08_formal_verification.pdf)
+  * [Slides](08_formal.pdf)
   * Lab: [lab8](lab8)
 
  ### Week 9: Spade
