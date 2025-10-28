@@ -68,6 +68,15 @@ Overall, the course will provide the students with a comprehensive understanding
 
  * [Slides](07_co_sim.pdf)
  * Lab: [lab7](lab7)
+
+ ### Week 8: Formal Verification
+
+  * [Slides](08_formal_verification.pdf)
+  * Lab: [lab8](lab8)
+
+ ### Week 9: Spade
+
+  * Insall Spade, see [Spade Setup](https://docs.spade-lang.org/agile/quick_setup.html)
  
 ## Group Projects
 
